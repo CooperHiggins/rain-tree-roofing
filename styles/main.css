@@ -4,26 +4,27 @@
   color: #000;
   padding: 0.2em 0;
 }
-
 body {
   background: #fafafa;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #333;
 }
-
+#logo {
+  max-width: 10em;
+}
 .nav-links {
   padding: 1em;
 }
-
 .site-header {
   background-color: rgb(0, 0, 0, 0.8);
 }
-
-
-
 .jumbotron.jumbotron-fluid.text-center.welcome {
     padding-top: 5em;
 }
+.carousel-image {
+  height: 30em;
+}
+
 
 
 /*// Extra small devices (portrait phones, less than 576px)
@@ -31,7 +32,6 @@ body {
 
 // Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) { 
-    
       .jumbotron.jumbotron-fluid.text-center.welcome {
         padding: 10em;
     }
